@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Tags</title>
+    </head>
+    <body>
+        <header>
+            <h1>HTML Tags</h1>     
+        </header>
+        <section>
+            <h2>Text Tags</h2>
+
+            <h3>Paragraph Tag - &lt;p></h3>
+            <p>A paragraph tag is used to describe a paragraph.</p>
+
+            <h3>Heading Tags - &lt;h1> ~ &lt;h6></h3>
+            <p>The heading tags denote heading, where lower 
+                        numbers are parent headings
+                and higher numbers are subheadings.
+            </p>
+
+            <h3>Preformatted - &lt;pre></h3>
+            <pre>Preformatted text allows us to intrepret text
+                        based on format utilized in the defining
+                                    documents.
+            </pre>
+
+            <h3>Code - &lt;code></h3>
+            <code>Denotes a section of code.</code>
+
+            <h3>Strong, Emphasis - &lt;strong>, &lt;em></h3>
+            <p><strong>Strong</strong> and <em>emphasis</em> provide tools for providing
+            emphasis to text written on a webpage. This tag both changes the underlying semantic
+            meaning of the affected text, and is also levaraged by user-agent sheets to bold/italicize
+            text.</p>
+
+        </section>
+
+        <hr> <!-- Horizontal Rule -->
+
+        <section>
+            <h2>List Tags</h2>
+
+            <h3>Ordered List - &lt;ol></h3>
+            <p>An ordered list is a list in which we are communicating that the order
+                items are presented in is meaningful and that it should be preserved.
+                Generally, user-agent stylesheets (browser default styles) will present
+                order lists with numbers.
+            </p>
+            <ol>
+                <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+            </ol>
+
+            <h3>Unordered List - &lt;ul></h3>
+            <p>A list in which the elements of the list are ordered arbitrarily and
+                the order has no significant meaning. Consequently, systems altering 
+                the order is permissible.
+            </p>
+
+            <ul>
+                <li>An item</li>
+                <li>Another item</li>
+                <li>Yet another item</li>
+            </ul>
+
+            <h3>Description List &lt;dl></h3>
+            <p>Description list is different in that each item has parts, some item
+                and its description. The item is defined with &lt;dt> and its description
+                is defined with &lt;dd>
+            </p>
+            <dl>
+                <dt>Apple</dt>
+                <dd>A sweet fruit that grows on a tree.</dd>
+
+                <dt>Oranges</dt>
+                <dd>In no way comparable to apples.</dd>
+            </dl>
+        </section>
+
+        <hr>
+
+        <section>
+            <h3>Multi-media</h3>
+            <h2>Image Tag &lt;img></h2>
+            <p>Images are tags that can be used to load an image and display it as part
+                of the webpage. It's important to understand that generally images are not a part
+                of the website themselves, they are loaded as a resource. As such, we must
+                always include the location of the resource that we intend to load. As such,
+                we need a way to provide additional information to the tag.
+            </p>
+            <p>Additional information can be provided to tags using what are called 
+                <em>attributes</em>. Attributes are names or key-value pairs that can be utilized
+                by the tag. For instance, images leverage a <em>src</em> attribute to derive the location
+                of the resource it needs to load.</p>
+
+            <img alt="A basket of puppies which are cute" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.hellogiggles.com%2Fuploads%2F2018%2F03%2F21041247%2Fpuppies.jpg&w=450&c=sc&poi=face&q=85">
+        
+            <h2>Video Tag &lt;video></h2>
+            <p>Video tag is used to provide HTML support for loading and viewing videos.</p>
+
+            <h2>Audio Tag &lt;audio></h2>
+            <p>Multimedia tag used to play audio files.</p>
+
+            <h2>(Anchor tag) Hyper-reference &lt;a></h2>
+            <p>Anchor tags provide a link to another location on a network (or the internet).
+                Anchor tags form hyperlinks which are imperative to the purpose and meaning of HyperText.
+                HyperText is the idea of immediate and unending information (in the form of text).
+            </p>
+        </section>
+
+
+    </body>
+</html>
