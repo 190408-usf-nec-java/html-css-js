@@ -1,0 +1,54 @@
+/**
+    Display property values
+    ------------------------
+    block - by default want to take up entire width of page,
+            don't want to sit horizontally next to one another
+    inline - inline elements (a, strong, em, img) sit inline with other items,
+            positioned along a baseline.
+    inline-block - Shares properties of a block and an inline element, generally
+            used to help organize block level elements.
+    flex - Flexbox is used to organize content. Older styles of display with CSS focused
+            on setting sizes and positions to create some kind of layout. Flexbox focuses
+            on you telling it the kind of layout it should have, and it figures out
+            how things should be spaced.
+    none - doesn't get displayed
+
+*/
+
+/**
+    Position property values
+    ------------------------
+    absolute - position absolutely, by setting values for the top/bottom/left/right
+                properties.
+    fixed - Like position absolutely, but items do not move when the view is scrolled.
+    relative - Positions things relative to it.
+    sticky - Flows when in view, becomes static when scrolled out.
+
+*/
+
+html, body {
+    background: black;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#my-div {
+    /*  4  top right bottom left*/
+    /*  3  top r/l bottom */
+    /*  2  t/b r/l */
+    /*  1  t/b/r/l */
+    margin: 1px 2px 4px 5px;
+
+    height: 100px;
+    width: 100px;
+    background-color: thistle;
+    padding: 20px;
+    border: 15px solid violet;
+    margin: 20px;
+    box-sizing: border-box;
+}

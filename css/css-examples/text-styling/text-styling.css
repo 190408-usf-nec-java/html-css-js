@@ -1,0 +1,58 @@
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    z-index: 10;
+    position: relative;
+    /* Colors:
+        1. Literal
+        2. Hexadecimal   #FFFFFF (white)
+                          FF FF FF
+                          r  g  b
+                         0 ~ 255
+                         F F           
+        3. rgb           rgb(1, 2, 3) 
+        4. rgba          rgba(1, 2, 3, 0.5) 
+        5. hsl           hsl(5, 2%, 6%) 
+        helpful tool: color.adobe.com
+        */
+
+    background: #333;
+    color: #EEE;
+    margin: 0;
+    padding: 30px 0;
+    font-family: sans-serif;
+    
+    /**
+        1. px - 'virtual' pixel
+        2. % - percentage - percentage of the containing element
+        3. em - Width of the letter 'M'
+        4. rem - Width of the letter 'M' at the document root
+        5. pt - Print 'point'.
+        6. vh/vw - View Height/View Width - 1/100 of a dimension of the view
+        7. vmax/vmin - vmax - greater among view height/width
+                        vmin - lesser among view height/width
+
+    */
+
+    
+    font-size: 3.5rem;
+    /* letter-spacing: 0.25rem; */
+    word-spacing: 1rem;
+    /* -webkit-text-fill-color: transparent; */
+    /* text-shadow: 0 0 5px yellow; */
+}
+
+#puppy-image {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: calc(3.5rem + 60px);
+    object-fit: cover;
+}

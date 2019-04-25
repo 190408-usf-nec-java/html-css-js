@@ -1,0 +1,22 @@
+body {
+    background-image: url('https://previews.123rf.com/images/nad1992/nad19921501/nad1992150100001/35953389-pet-paw-and-bones-for-dog-pattern-vector-seamless-dog-footprint-texture.jpg');
+}
+
+div {
+    width: 70%;
+    margin: 0 auto;
+    background: white;
+    border: 5px ridge black;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-indent: 40px;
+}
+
+img {
+    width: 100%;
+}

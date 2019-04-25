@@ -1,0 +1,71 @@
+/*
+Advanced Selectors
+, - Union Selector
+> - Direct child selector
+  - Descendant Selector
+- Intersection Selector
+~ - Sibling Selector
+*/
+
+#outer {
+    width: 200px;
+    height: 200px;
+    background: black;
+}
+
+/* Union Selector */
+.a, .b {
+    width: 100px;
+    height: 100px;
+}
+
+.c {
+    width: 50px;
+    height: 50px;
+}
+
+.a {
+    background: blue;
+}
+
+.b {
+    background: green;
+}
+
+.c {
+    background: red;
+}
+
+#outer > .a {
+    background: yellow;
+}
+
+#outer .c {
+    background: purple;
+}
+
+.a.b {
+    background: cyan;
+}
+
+.a.b > .c {
+    height: 25px;
+    width: 25px;
+    border: 1px solid black;
+}
+
+.c ~ .c {
+    background: rgba(0,0,0, .25);
+}
+
+#parent {
+    background: purple;
+    height: 300px;
+    width: 300px;
+}
+
+.child {
+    background: rgba(255,255,255,0.05);
+    height: 90%;
+    width: 90%;
+}

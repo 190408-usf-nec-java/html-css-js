@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+}
+
+.row {
+    border: 3px ridge purple;
+}
+
+.row > * {
+    border: 1px solid lightblue;
+    height: 100px;
+}
+
+.row > *:nth-child(even) {
+    background: grey;
+}
+.row > *:nth-child(odd) {
+    background: darkgray;
+}

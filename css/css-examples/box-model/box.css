@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#box {
+    height: 250px;
+    background-color: black;
+    width: 250px;
+    border-radius: 100%;
+
+    /*
+    box-shadow values:
+    
+    x-offset
+    y-offset
+    blur size
+    grow size
+    color
+    (inset)
+
+    */
+    box-shadow: 35px 35px 50px 10px black,
+            45px 45px 100px 0px white inset;
+
+    transition: box-shadow 1s linear;
+}
+
+/* Pseudo-class 
+    A way of selecting based on state
+    empty
+*/
+#box:hover {
+    box-shadow: -35px 35px 50px 10px black,
+    -45px 45px 100px 0px white inset;
+}
+
+#box:active {
+    box-shadow: -35px -35px 50px 10px black,
+    -45px -45px 100px 0px white inset;
+}
+
+#box:focus {
+    box-shadow: 35px -35px 50px 10px black,
+    45px -45px 100px 0px white inset;
+}

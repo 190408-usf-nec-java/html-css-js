@@ -77,6 +77,12 @@
                 <dt>Oranges</dt>
                 <dd>In no way comparable to apples.</dd>
             </dl>
+        
+            <h3>List Item - &lt;li></h3>
+            <p>List item tag is used as a <em>child</em> tag of an order list or Unordered
+                list, representing an individual item in that list. Lists of type ol/ul should
+                not have any direct children that are not list items.</p>
+        
         </section>
 
         <hr>
@@ -108,8 +114,91 @@
                 Anchor tags form hyperlinks which are imperative to the purpose and meaning of HyperText.
                 HyperText is the idea of immediate and unending information (in the form of text).
             </p>
+            <a href="https://google.com">Go to Google</a>
         </section>
 
+        <section>
+            <h2>Tables</h2>
+            <p>Tables are 2D structures used to house data in an easy to consume format.</p>
+
+            <h3>Minimal Table for using &lt;table>, &lt;tr>, and &lt;td></h3>
+            <table>
+                <!-- tr - Table Row -->
+                <tr>
+                    <!-- Table Data -->
+                    <td>Abby</td>
+                    <td>Billy</td>
+                    <td>Cathy</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>7</td>
+                    <td>9</td>
+                </tr>
+            </table>
+
+            <h3>More Robust Table</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Abby</th>
+                        <th>Billy</th>
+                        <th>Cathy</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Science</th>
+                        <td>7</td>
+                        <td>6</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <th>Math</th>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>6</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th>Total</th>
+                        <td>14</td>
+                        <td>14</td>
+                        <td>13</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section>
+            <h2>Forms</h2>
+            <p>Forms are used to gather data from the user of the page, using a variety
+                of input types. These allow the user to interact with the page by setting
+                values and then submitting these values to a server. Note: At the current
+                time we have no server, so these values won't be submitted to any particular
+                place. Later, we will have our own servers that we can submit requests to.
+            </p>
+
+            <h3>Form Tag - &lt;form></h3>
+            <p>
+                Form tag is a containing tag that holds a group of input fields and represents
+                a group of related units of data that should be submitted together.
+            </p>
+
+            <h3>Input Tag - &lt;input></h3>
+            <p>
+                The input tag represents an input element. The type of input is defined using a
+                type attribute. For instance, we might use the 'text' type to submit text fields,
+                or the radio button to submit an option.
+            </p>
+            <form>
+                <input type="text">
+                <input type="color">
+                <input type="submit">
+            </form>
+        </section>
 
     </body>
 </html>
