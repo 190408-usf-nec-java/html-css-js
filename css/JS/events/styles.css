@@ -1,0 +1,28 @@
+.a, .b, .c {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.a:hover, .b:hover, .c:hover {
+    border: 1px solid lightpink;
+}
+
+.a {
+    background: blue;
+}
+
+.b {
+    background: green;
+}
+
+.c {
+    background: red;
+}
+
+.big {
+    width: 200px;
+    height: 200px;
+}

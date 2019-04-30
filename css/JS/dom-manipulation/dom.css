@@ -1,0 +1,23 @@
+.square {
+    width: 100px;
+    height: 100px;
+    background: green;
+    margin: 5px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    border-radius: 100%;
+    margin: 5px;
+}
+
+.sub-container {
+    width: 500px;
+    height: 500px;
+    background: lightcyan;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
